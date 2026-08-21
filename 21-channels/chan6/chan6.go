@@ -19,6 +19,8 @@ func main() {
 	}()
 
 	for i := 0; i < 2; i++ {
+		// Retaining local channel/select implementation
+		// The select statement is used to wait on multiple channel operations
 		select {
 		case msg1 := <-chan1:
 			fmt.Println("Received from chan1:", msg1)
@@ -26,5 +28,4 @@ func main() {
 			fmt.Println("Received from chan2:", msg2)
 		}
 	}
-
 }
