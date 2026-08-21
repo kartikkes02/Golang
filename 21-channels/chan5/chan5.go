@@ -11,6 +11,12 @@ func emailSender(emailChan chan string, done chan bool) {
 		done <- true
 	}()
 
+	// func emailSender(emailChan chan <- string, done <- chan bool)
+	// this means that the emailSender function can only send values to the emailChan channel
+	// and doesn't receive values from it.
+	// <-done  so this is not running because the done channel is not being used to signal when
+	// the emailSender function is done sending emails.
+
 	for email := range emailChan {
 		fmt.Println("Email sending to ", email)
 		time.Sleep(time.Second) // Sleep for a second to simulate email sending time
