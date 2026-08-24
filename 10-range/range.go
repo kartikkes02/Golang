@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// range -> used for the ierating over data structures.
+// range -> used for the ierating over data structures
 func main() {
 	fmt.Println("Range")
 
