@@ -21,20 +21,20 @@
 // 	fmt.Println("Functions")
 // }
 
-// // func output(investmentAmount float64, expectedReturnRate float64, years float64) (futureValue float64) {
-// // 	fmt.Println("Investment calculator: ")
-// // 	fmt.Print("Enter Investment Amount: ")
-// // 	fmt.Scan(&investmentAmount)
+// func output(investmentAmount float64, expectedReturnRate float64, years float64) (futureValue float64) {
+// 	fmt.Println("Investment calculator: ")
+// 	fmt.Print("Enter Investment Amount: ")
+// 	fmt.Scan(&investmentAmount)
 
-// // 	fmt.Print("Enter Expected Return Rate: ")
-// // 	fmt.Scan(&expectedReturnRate)
+// 	fmt.Print("Enter Expected Return Rate: ")
+// 	fmt.Scan(&expectedReturnRate)
 
-// // 	fmt.Print("Enter Number of Years: ")
-// // 	fmt.Scan(&years)
+// 	fmt.Print("Enter Number of Years: ")
+// 	fmt.Scan(&years)
 
-// // 	futureValue = investmentAmount * math.Pow(1+expectedReturnRate/100, years)
-// // 	return futureValue
-// // }
+// 	futureValue = investmentAmount * math.Pow(1+expectedReturnRate/100, years)
+// 	return futureValue
+// }
 
 package main
 
