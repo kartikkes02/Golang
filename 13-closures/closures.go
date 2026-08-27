@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// closure -> function which is defined inside another function and it can access the variables
+closure -> function which is defined inside another function and it can access the variables
 // of outer function.
 func counter() func() int {
 	var count = 0
