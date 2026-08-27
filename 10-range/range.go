@@ -4,7 +4,6 @@ import "fmt"
 // range -> used for the ierating over data structures.
 func main() {
 	fmt.Println("Range")
-
 	// create slices
 	nums := []int{6, 7, 8}
 
