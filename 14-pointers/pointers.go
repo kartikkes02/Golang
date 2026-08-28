@@ -1,5 +1,4 @@
 package main
-
 import "fmt"
 
 // pointer -> variable which stores the address of another variable.
