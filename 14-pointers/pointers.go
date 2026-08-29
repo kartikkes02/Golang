@@ -7,7 +7,6 @@ func ChangeNum(num int) {
 	num = 10
 	fmt.Println("Inside ChangeNum function:", num)
 }
-
 // dereference -> accessing the value of a variable using its address.
 func ChangeNumPointer(num *int) {
 	*num = 10
